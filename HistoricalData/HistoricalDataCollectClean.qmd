@@ -1,0 +1,351 @@
+---
+title: "Historical Data Gathering and Cleaning for Machine Learning"
+author: "Odin Lee"
+format: html
+editor: visual
+---
+
+# Load Libraries
+
+```{r}
+
+library(baseballr)
+library(dplyr)
+library(stringi)
+library(purrr)
+
+```
+
+# Create Functions
+
+### Function: Convert Baseball Style Innings Notation to Decimal Format
+
+```{r}
+
+# Example: "7.2" represents 7 innings and 2 outs, which is numerically 7 2/3 innings.
+
+# Function to convert baseball-style innings pitched notation to a numerical value
+convertInnings <- function(InningsPitched) {
+  IP <- strsplit(as.character(InningsPitched), "\\.")[[1]]  # Split input on decimal point
+  
+  if (length(IP) == 2) {  # If there is a decimal portion
+    wholeNumber <- as.numeric(IP[1])  # Extract whole innings
+    fractionalNumber <- as.numeric(IP[2])  # Extract outs portion
+    
+    # Convert the outs portion to its fractional equivalent
+    if (fractionalNumber == 1) {
+      fractionalNumber <- 1/3  # 1 out = 1/3 of an inning
+    } else if (fractionalNumber == 2) {
+      fractionalNumber <- 2/3  # 2 outs = 2/3 of an inning
+    }
+    
+    return(wholeNumber + fractionalNumber)  # Return total innings as a numeric value
+  } else {
+    return(as.numeric(InningsPitched))  # If no decimal, return as a numeric value
+  }
+}
+
+```
+
+### Function: Standardize Outfield Positions (LF, RF, and CF –\> OF)
+
+```{r}
+
+# Converts "LF" (Left Field), "RF" (Right Field), and "CF" (Center Field) to "OF" (Outfield)
+positionToOF <- function(data) {
+  data <- data |>
+    mutate(position_abbreviation = ifelse(
+      position_abbreviation %in% c("LF", "RF", "CF"),  # Check if position LF, RF, or CF
+      "OF",  # Replace with "OF" for standardization
+      position_abbreviation  # Keep other positions unchanged
+    ))
+  return(data)
+}
+
+```
+
+### Function: Standardize Pitcher Position (P/TWP —\> SP)
+
+```{r}
+
+# Converts all "P" (Pitcher) and "TWP" (Two Way Player) designations to "SP" (Starting Pitcher)
+pitchersToSP <- function(data) {
+  data <- data |>
+    mutate(position_abbreviation = ifelse(
+      position_abbreviation %in% c("P", "TWP"),  # Check if position is listed as "P" or "TWP
+      "SP",  # Replace with "SP" for standardization
+      position_abbreviation  # Keep other positions unchanged
+    ))
+  return(data)
+}
+
+```
+
+### Function: Reclassify Starters as Relievers (SP —\> RP)
+
+```{r}
+
+# Changes "SP" (Starting Pitcher) to "RP" (Relief Pitcher) if:
+#     - Innings per game (I/G) is less than 4, OR
+#     - Percentage of games started (GS/G) is less than 0.5
+
+spToRP <- function(data) {
+  data <- data |>
+    mutate(position_abbreviation = ifelse(
+      position_abbreviation == "SP" &  # Check if player is currently labeled as "SP"
+      (innings_per_game < 4 | percent_games_started < 0.5),  # Check conditions
+      "RP",  # Change to "RP" (Relief Pitcher)
+      position_abbreviation  # Keep other positions unchanged
+    ))
+  return(data)
+}
+
+```
+
+# Data Cleaning
+
+#### Select Year
+
+```{r}
+
+# for multiple years do 2023:2025 this includes all three seasons
+# singular season also works ie 2026
+
+########## SELECT YEAR HERE ########## 
+
+year = 2023:2025
+
+########## SELECT YEAR HERE ##########
+
+```
+
+### Retrieve MLB Player Statistics
+
+```{r}
+
+# Fetch all hitter statistics
+Hitters <- map_dfr(year, function(yr) {
+  mlb_stats(
+    stat_type = 'season',
+    stat_group = 'hitting',
+    season = yr,
+    player_pool = 'all',
+    limit = 1000
+  )
+})
+
+# Fetch all pitcher statistics
+Pitchers <- map_dfr(year, function(yr) {
+  mlb_stats(
+    stat_type = 'season',
+    stat_group = 'pitching',
+    season = yr,
+    player_pool = 'all',
+    limit = 1000
+  )
+})
+
+```
+
+### Change X Hitter Position
+
+```{r}
+
+# Change any position value == X to the players last known position
+Hitters <- Hitters |>
+  group_by(`player_full_name`) |>
+  arrange(season) |>
+  mutate(position_abbreviation = ifelse(position_abbreviation == "X", lag(position_abbreviation), position_abbreviation)) |>
+  ungroup()
+
+```
+
+### Calculate Pitching Metrics
+
+```{r}
+
+# Computes innings pitched per game and percentage of games started for each pitcher
+Pitchers <- Pitchers |> 
+  mutate(innings_pitched = sapply(innings_pitched, convertInnings)) |>
+  mutate(
+    innings_per_game = as.numeric(innings_pitched) / games_played,  # Calculate IP per game
+    percent_games_started = games_started / games_played  # Compute percentage of games started
+  )
+
+```
+
+### Apply Functions
+
+```{r}
+
+# Standardize outfield positions in the hitters dataset (LF, RF, CF → OF)
+Hitters <- positionToOF(Hitters)
+
+# Convert all general pitcher positions ("P") to starting pitchers ("SP")
+Pitchers <- pitchersToSP(Pitchers)
+
+# Reclassify some starting pitchers ("SP") as relief pitchers ("RP") based on innings/game and start percentage
+Pitchers <- spToRP(Pitchers)
+
+```
+
+### Select Relevant Columns for Fantasy Baseball Scoring
+
+```{r}
+
+# Simplify the Hitters dataset by selecting only necessary columns for FPts calculation
+Hitters <- Hitters |>
+  select(
+    "Year" = "season",
+    "Player Name" = "player_full_name", 
+    "Position" = "position_abbreviation", 
+    "Team" = "team_name",
+    "Hits (H)" = "hits", 
+    "Runs Scored (R)" = "runs", 
+    "Total Bases (TB)" = "total_bases",
+    "Runs Batted In (RBI)" = "rbi", 
+    "Walks (BB)" = "base_on_balls", 
+    "Intentional Walks (IBB)" = "intentional_walks", 
+    "Strikeouts (K)" = "strike_outs",
+    "Stolen Bases (SB)" = "stolen_bases"
+  )
+
+# Simplify the Pitchers dataset by selecting only necessary columns for FPts calculation
+Pitchers <- Pitchers |>
+  select(
+    "Year" = "season",
+    "Player Name" = "player_full_name", 
+    "Position" = "position_abbreviation", 
+    "Team" = "team_name",
+    "Innings Pitched (IP)" = "innings_pitched", 
+    "Hits Allowed (H)" = "hits", 
+    "Earned Runs (ER)" = "earned_runs", 
+    "Walks Issued (BB)" = "base_on_balls", 
+    "Strikeouts (K)" = "strike_outs", 
+    "Saves (SV)" = "saves", 
+    "Blown Saves (BS)" = "blown_saves", 
+    "Holds (HD)" = "holds"
+  )
+
+```
+
+### Calculate Fantasy Points
+
+```{r}
+
+# Calculate fantasy points for hitters based on league scoring rules
+Hitters <- Hitters |> 
+  mutate(Team = ifelse(Team == "Oakland Athletics", "Athletics", Team)) |>
+  mutate(`Fantasy Points (FPTS)` = 
+           (`Hits (H)` * 1) + 
+           (`Runs Scored (R)` * 1) + 
+           (`Total Bases (TB)` * 1) + 
+           (`Runs Batted In (RBI)` * 1) + 
+           (`Walks (BB)` * 2) + 
+           (`Intentional Walks (IBB)` * 1) + 
+           (`Strikeouts (K)` * -1) + 
+           (`Stolen Bases (SB)` * 2)
+  ) |> 
+  arrange(desc(`Fantasy Points (FPTS)`)) # Rank hitters from highest to lowest fantasy points
+
+# Calculate fantasy points for pitchers based on league scoring rules
+Pitchers <- Pitchers |> 
+  mutate(Team = ifelse(Team == "Oakland Athletics", "Athletics", Team)) |>
+  mutate(`Fantasy Points (FPTS)` = 
+           (as.numeric(`Innings Pitched (IP)`) * 4.5) +
+           (`Hits Allowed (H)` * -1) + 
+           (`Earned Runs (ER)` * -3) + 
+           (`Walks Issued (BB)` * -1) + 
+           (`Strikeouts (K)` * 1) + 
+           (`Saves (SV)` * 6) +
+           (`Blown Saves (BS)` * -3) +
+           (`Holds (HD)` * 5)
+  ) |> 
+  arrange(desc(`Fantasy Points (FPTS)`)) # Rank pitchers from highest to lowest fantasy points
+
+```
+
+### Select Relevant Rows
+
+```{r}
+
+#
+# Numbers for the following filters can be found in file TeamScoresAnalysis.xlsx
+# Locate the amount of hits or innings pitched for the player in the newest year 
+# at the replacement level x1.20
+#
+
+# Filter out rows in Hitters that could cause skewing in ML model
+Hitters <- Hitters |>
+  # Filter out C with fewer than 313 FPTS. 
+  # (313 = The number of FPTS by the average amount of C on a fantasy roster x1.2)
+  filter(Position != "C" | (Position == "C" & `Fantasy Points (FPTS)` >= 313)) |>
+  # Filter out 1B with fewer than 246 FPTS.  
+  # (246 = The number of FPTS by the average amount of 1B on a fantasy roster x1.2)
+  filter(Position != "1B" | (Position == "1B" & `Fantasy Points (FPTS)` >= 246)) |>
+  # Filter out 2B with fewer than 269 FPTS.  
+  # (269 = The number of FPTS by the average amount of 2B on a fantasy roster x1.2)
+  filter(Position != "2B" | (Position == "2B" & `Fantasy Points (FPTS)` >= 269)) |>
+  # Filter out 3B with fewer than 317 FPTS.  
+  # (317 = The number of FPTS by the average amount of 3B on a fantasy roster x1.2)
+  filter(Position != "3B" | (Position == "3B" & `Fantasy Points (FPTS)` >= 317)) |>
+  # Filter out SS with fewer than 287 FPTS.  
+  # (287 = The number of FPTS by the average amount of SS on a fantasy roster x1.2)
+  filter(Position != "SS" | (Position == "SS" & `Fantasy Points (FPTS)` >= 287)) |>
+  # Filter out OF with fewer than 336 FPTS.  
+  # (336 = The number of FPTS by the average amount of OF on a fantasy roster x1.2)
+  filter(Position != "OF" | (Position == "OF" & `Fantasy Points (FPTS)` >= 336)) |>
+  # Filter out DH with fewer than 384 FPTS.  
+  # (384 = The number of FPTS by the average amount of DH on a fantasy roster x1.2)
+  filter(Position != "DH" | (Position == "DH" & `Fantasy Points (FPTS)` >= 384)) |>
+  # Filter out any stragglers
+  filter(`Fantasy Points (FPTS)` >= 100)
+
+# Filter out rows in Pitchers that could cause skewing in ML model
+Pitchers <- Pitchers |>
+  # Filter out SP with fewer than 244.5 FPTS.  
+  # (244.5 = The number of FPTS by the average amount of SP on a fantasy roster x1.2)
+  filter(Position != "SP" | (Position == "SP" & `Fantasy Points (FPTS)` >= 244.5)) |>
+  # Filter out RP with fewer than 362.5 FPTS.  
+  # (362.5 = The number of FPTS by the average amount of RP on a fantasy roster x1.2)
+  filter(Position != "RP" | (Position == "RP" & `Fantasy Points (FPTS)` >= 362.5)) |>
+  # Filter out any stragglers
+  filter(`Fantasy Points (FPTS)` >= 100)
+
+```
+
+#### Remove Letter Accents from Names
+
+```{r}
+
+Hitters$`Player Name` <- stri_trans_general(Hitters$`Player Name`, "Latin-ASCII")
+
+Pitchers$`Player Name` <- stri_trans_general(Pitchers$`Player Name`, "Latin-ASCII")
+
+```
+
+#### Separate RP and SP
+
+```{r}
+
+# Create Starters with only SP
+Starters <- Pitchers |>
+  filter(Position == 'SP')
+
+# Create Relievers with only RP
+Relievers <- Pitchers |>
+  filter(Position == 'RP')
+
+```
+
+# Export to CSV File
+
+```{r}
+
+# Export CSV files without row names
+write.csv(Hitters, "HittersHistorical.csv", row.names = FALSE)
+write.csv(Pitchers, "PitchersHistorical.csv", row.names = FALSE)
+write.csv(Starters, "StartersHistorical.csv", row.names = FALSE)
+write.csv(Relievers, "RelieversHistorical.csv", row.names = FALSE)
+
+```

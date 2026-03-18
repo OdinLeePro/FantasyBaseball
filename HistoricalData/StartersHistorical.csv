@@ -1,0 +1,376 @@
+"Year","Player Name","Position","Team","Innings Pitched (IP)","Hits Allowed (H)","Earned Runs (ER)","Walks Issued (BB)","Strikeouts (K)","Saves (SV)","Blown Saves (BS)","Holds (HD)","Fantasy Points (FPTS)"
+"2025","Tarik Skubal","SP","Detroit Tigers",195.333333333333,141,48,33,241,0,0,0,802
+"2025","Garrett Crochet","SP","Boston Red Sox",205.333333333333,165,59,46,255,0,0,0,791
+"2023","Gerrit Cole","SP","New York Yankees",209,157,61,48,222,0,0,0,774.5
+"2024","Tarik Skubal","SP","Detroit Tigers",192,142,51,35,228,0,0,0,762
+"2024","Zack Wheeler","SP","Philadelphia Phillies",200,139,57,52,224,0,0,0,762
+"2025","Paul Skenes","SP","Pittsburgh Pirates",187.666666666667,136,41,42,216,0,0,0,759.5
+"2024","Logan Gilbert","SP","Seattle Mariners",208.666666666667,148,75,37,220,0,0,0,749
+"2025","Cristopher Sanchez","SP","Philadelphia Phillies",202,171,56,44,212,0,0,0,738
+"2024","Chris Sale","SP","Atlanta Braves",177.666666666667,141,47,39,225,0,0,0,703.5
+"2023","Logan Webb","SP","San Francisco Giants",216,201,78,31,194,0,0,0,700
+"2025","Hunter Brown","SP","Houston Astros",185.333333333333,133,50,57,206,0,0,0,700
+"2023","Blake Snell","SP","San Diego Padres",180,115,45,99,234,0,0,0,695
+"2023","Zac Gallen","SP","Arizona Diamondbacks",210,188,81,47,220,0,0,0,687
+"2025","Bryan Woo","SP","Seattle Mariners",186.666666666667,137,61,36,198,0,0,0,682
+"2024","Seth Lugo","SP","Kansas City Royals",206.666666666667,177,69,48,181,0,0,0,679
+"2025","Logan Webb","SP","San Francisco Giants",207,210,74,46,224,0,0,0,677.5
+"2023","Spencer Strider","SP","Atlanta Braves",186.666666666667,146,80,58,281,0,0,0,677
+"2025","Carlos Rodon","SP","New York Yankees",195.333333333333,132,67,73,203,0,0,0,676
+"2023","Luis Castillo","SP","Seattle Mariners",197,160,73,56,219,0,0,0,670.5
+"2025","Max Fried","SP","New York Yankees",195.333333333333,164,62,51,189,0,0,0,667
+"2025","Yoshinobu Yamamoto","SP","Los Angeles Dodgers",173.666666666667,113,48,59,201,0,0,0,666.5
+"2023","Kevin Gausman","SP","Toronto Blue Jays",185,163,65,55,237,0,0,0,656.5
+"2024","Dylan Cease","SP","San Diego Padres",189.333333333333,137,73,65,224,0,0,0,655
+"2025","Nick Pivetta","SP","San Diego Padres",181.666666666667,129,58,50,190,0,0,0,654.5
+"2024","Corbin Burnes","SP","Baltimore Orioles",194.333333333333,165,63,48,181,0,0,0,653.5
+"2024","Cole Ragans","SP","Kansas City Royals",186.333333333333,146,65,67,223,0,0,0,653.5
+"2025","Freddy Peralta","SP","Milwaukee Brewers",176.666666666667,124,53,66,204,0,0,0,650
+"2023","Pablo Lopez","SP","Minnesota Twins",194,176,79,48,234,0,0,0,646
+"2023","Corbin Burnes","SP","Milwaukee Brewers",193.666666666667,141,73,66,200,0,0,0,645.5
+"2023","Framber Valdez","SP","Houston Astros",198,166,76,57,200,0,0,0,640
+"2023","Zack Wheeler","SP","Philadelphia Phillies",192,168,77,39,212,0,0,0,638
+"2025","Jacob deGrom","SP","Texas Rangers",172.666666666667,122,57,37,185,0,0,0,632
+"2024","Bryce Miller","SP","Seattle Mariners",180.333333333333,131,59,45,171,0,0,0,629.5
+"2023","Sonny Gray","SP","Minnesota Twins",184,156,57,55,183,0,0,0,629
+"2025","Kevin Gausman","SP","Toronto Blue Jays",193,155,77,50,189,0,0,0,621.5
+"2023","George Kirby","SP","Seattle Mariners",190.666666666667,179,71,19,172,0,0,0,619
+"2024","Aaron Nola","SP","Philadelphia Phillies",199.333333333333,189,79,50,197,0,0,0,618
+"2023","Chris Bassitt","SP","Toronto Blue Jays",200,176,80,59,186,0,0,0,611
+"2024","George Kirby","SP","Seattle Mariners",191,181,75,23,179,0,0,0,609.5
+"2024","Shota Imanaga","SP","Chicago Cubs",173.333333333333,149,56,28,174,0,0,0,609
+"2023","Logan Gilbert","SP","Seattle Mariners",190.666666666667,169,79,36,189,0,0,0,605
+"2024","Michael King","SP","San Diego Padres",173.666666666667,144,57,63,201,0,0,0,604.5
+"2024","Logan Webb","SP","San Francisco Giants",204.666666666667,202,79,50,172,0,0,0,604
+"2023","Zach Eflin","SP","Tampa Bay Rays",177.666666666667,158,69,24,186,0,0,0,596.5
+"2024","Framber Valdez","SP","Houston Astros",176.333333333333,140,57,55,169,0,0,0,596.5
+"2024","Sean Manaea","SP","New York Mets",181.666666666667,134,70,63,184,0,0,0,594.5
+"2025","Zack Wheeler","SP","Philadelphia Phillies",149.666666666667,107,45,33,195,0,0,0,593.5
+"2023","Kyle Bradish","SP","Baltimore Orioles",168.666666666667,132,53,44,168,0,0,0,592
+"2025","Joe Ryan","SP","Minnesota Twins",171,138,65,39,194,0,0,0,591.5
+"2023","Jordan Montgomery","SP","Texas Rangers",188.666666666667,177,67,48,166,0,0,0,589
+"2023","Kodai Senga","SP","New York Mets",166.333333333333,126,55,77,202,0,0,0,582.5
+"2023","Jesus Luzardo","SP","Miami Marlins",178.666666666667,162,71,55,208,0,0,0,582
+"2023","Jose Berrios","SP","Toronto Blue Jays",189.666666666667,173,77,52,184,0,0,0,581.5
+"2024","Ronel Blanco","SP","Houston Astros",167.333333333333,114,52,68,166,0,0,0,581
+"2023","Merrill Kelly","SP","Arizona Diamondbacks",177.666666666667,143,65,69,187,0,0,0,579.5
+"2024","Jack Flaherty","SP","Los Angeles Dodgers",162,135,57,38,194,0,0,0,579
+"2024","Bailey Ober","SP","Minnesota Twins",178.666666666667,136,79,43,191,0,0,0,579
+"2025","Jesus Luzardo","SP","Philadelphia Phillies",183.666666666667,167,80,57,216,0,0,0,578.5
+"2025","Framber Valdez","SP","Houston Astros",192,171,78,68,187,0,0,0,578
+"2023","Justin Steele","SP","Chicago Cubs",173.333333333333,167,59,36,176,0,0,0,576
+"2025","Matthew Boyd","SP","Chicago Cubs",179.666666666667,154,64,42,154,0,0,0,574.5
+"2025","Merrill Kelly","SP","Texas Rangers",184,157,72,48,167,0,0,0,574
+"2024","Tanner Bibee","SP","Cleveland Guardians",173.666666666667,150,67,44,187,0,0,0,573.5
+"2023","Mitch Keller","SP","Pittsburgh Pirates",194.333333333333,187,91,55,210,0,0,0,569.5
+"2024","Tanner Houck","SP","Boston Red Sox",178.666666666667,156,62,48,154,0,0,0,568
+"2024","Jose Berrios","SP","Toronto Blue Jays",192.333333333333,168,77,54,153,0,0,0,565.5
+"2025","Robbie Ray","SP","San Francisco Giants",182.333333333333,148,74,73,186,0,0,0,563.5
+"2023","Aaron Nola","SP","Philadelphia Phillies",193.666666666667,178,96,45,202,0,0,0,562.5
+"2024","Pablo Lopez","SP","Minnesota Twins",185.333333333333,180,84,41,198,0,0,0,559
+"2024","Max Fried","SP","Atlanta Braves",174.333333333333,146,63,57,166,0,0,0,558.5
+"2023","Freddy Peralta","SP","Milwaukee Brewers",165.666666666667,131,71,54,210,0,0,0,557.5
+"2024","Freddy Peralta","SP","Milwaukee Brewers",173.666666666667,143,71,68,200,0,0,0,557.5
+"2024","Sonny Gray","SP","St. Louis Cardinals",166.333333333333,142,71,39,203,0,0,0,557.5
+"2024","Paul Skenes","SP","Pittsburgh Pirates",133,94,29,32,170,0,0,0,555.5
+"2024","Hunter Greene","SP","Cincinnati Reds",150.333333333333,96,46,57,169,0,0,0,554.5
+"2024","Erick Fedde","SP","St. Louis Cardinals",177.333333333333,154,65,52,154,0,0,0,551
+"2024","Yusei Kikuchi","SP","Houston Astros",175.666666666667,167,79,44,206,0,0,0,548.5
+"2025","Luis Castillo","SP","Seattle Mariners",180.666666666667,168,71,46,162,0,0,0,548
+"2025","Andrew Abbott","SP","Cincinnati Reds",166.333333333333,148,53,43,149,0,0,0,547.5
+"2024","Luis Castillo","SP","Seattle Mariners",175.333333333333,158,71,47,175,0,0,0,546
+"2024","Cristopher Sanchez","SP","Philadelphia Phillies",181.666666666667,182,67,44,153,0,0,0,543.5
+"2025","Gavin Williams","SP","Cleveland Guardians",167.666666666667,130,57,83,173,0,0,0,543.5
+"2024","Carlos Rodon","SP","New York Yankees",175,157,77,57,195,0,0,0,537.5
+"2024","Garrett Crochet","SP","Chicago White Sox",146,123,58,33,209,0,0,0,536
+"2025","Sonny Gray","SP","St. Louis Cardinals",180.666666666667,185,86,38,201,0,0,0,533
+"2024","Hunter Brown","SP","Houston Astros",170,156,66,60,179,0,0,0,530
+"2024","Nathan Eovaldi","SP","Texas Rangers",170.666666666667,147,72,42,166,0,0,0,529
+"2024","Kutter Crawford","SP","Boston Red Sox",183.666666666667,155,89,51,175,0,0,0,528.5
+"2025","Nathan Eovaldi","SP","Texas Rangers",130,90,25,21,129,0,0,0,528
+"2024","Brady Singer","SP","Kansas City Royals",179.666666666667,175,74,54,170,0,0,0,527.5
+"2025","Zack Littell","SP","Cincinnati Reds",186.666666666667,174,79,32,130,0,0,0,527
+"2024","Nestor Cortes","SP","New York Yankees",174.333333333333,162,73,39,162,0,0,0,526.5
+"2024","Kevin Gausman","SP","Toronto Blue Jays",181,165,77,56,162,0,0,0,524.5
+"2024","Reynaldo Lopez","SP","Atlanta Braves",135.666666666667,108,30,42,148,0,0,1,523.5
+"2025","Nick Lodolo","SP","Cincinnati Reds",156.666666666667,138,58,31,156,0,0,0,518
+"2024","Luis Severino","SP","New York Mets",182,166,79,60,161,0,0,0,517
+"2023","Justin Verlander","SP","Houston Astros",162.333333333333,139,58,45,144,0,0,0,516.5
+"2025","Drew Rasmussen","SP","Tampa Bay Rays",150,116,46,37,127,0,0,0,511
+"2025","Ryan Pepiot","SP","Tampa Bay Rays",167.666666666667,134,72,61,167,0,0,0,510.5
+"2024","Michael Wacha","SP","Kansas City Royals",166.666666666667,154,62,45,145,0,0,0,510
+"2023","Yusei Kikuchi","SP","Toronto Blue Jays",167.666666666667,165,72,48,181,0,0,0,506.5
+"2023","Sandy Alcantara","SP","Miami Marlins",184.666666666667,176,85,48,151,0,0,0,503
+"2024","Jameson Taillon","SP","Chicago Cubs",165.333333333333,154,60,33,125,0,0,0,502
+"2023","Dane Dunning","SP","Texas Rangers",172.666666666667,163,71,55,140,0,0,3,501
+"2025","Tanner Bibee","SP","Cleveland Guardians",182.333333333333,170,86,54,162,0,0,0,500.5
+"2024","Jake Irvin","SP","Washington Nationals",187.666666666667,173,92,52,156,0,0,0,499.5
+"2025","Ranger Suarez","SP","Philadelphia Phillies",157.333333333333,154,56,38,151,0,0,0,499
+"2023","Max Scherzer","SP","Texas Rangers",152.666666666667,126,64,45,174,0,0,0,498
+"2023","Braxton Garrett","SP","Miami Marlins",159.666666666667,154,65,29,156,0,0,0,496.5
+"2024","Luis Gil","SP","New York Yankees",151.666666666667,104,59,77,171,0,0,0,495.5
+"2025","Ryne Nelson","SP","Arizona Diamondbacks",154,124,58,41,132,1,1,1,494
+"2025","Dylan Cease","SP","San Diego Padres",168,152,85,71,215,0,0,0,493
+"2023","Joe Ryan","SP","Minnesota Twins",161.666666666667,155,81,34,197,0,0,0,492.5
+"2024","Brandon Pfaadt","SP","Arizona Diamondbacks",181.666666666667,183,95,42,185,0,0,0,492.5
+"2023","Lucas Giolito","SP","Cleveland Guardians",184.333333333333,169,100,73,204,0,0,0,491.5
+"2024","Zach Eflin","SP","Baltimore Orioles",165.333333333333,166,66,24,134,0,0,0,490
+"2024","Tyler Anderson","SP","Los Angeles Angels",179.333333333333,158,76,73,142,0,0,0,490
+"2023","Dylan Cease","SP","Chicago White Sox",177,172,90,79,214,0,0,0,489.5
+"2025","Chris Sale","SP","Atlanta Braves",125.666666666667,102,36,32,165,0,0,0,488.5
+"2025","Brady Singer","SP","Cincinnati Reds",169.666666666667,150,76,60,163,0,0,0,488.5
+"2024","Tyler Glasnow","SP","Los Angeles Dodgers",134,92,52,35,168,0,0,0,488
+"2025","Zac Gallen","SP","Arizona Diamondbacks",192,176,103,66,175,0,0,0,488
+"2023","Charlie Morton","SP","Atlanta Braves",163.333333333333,150,66,83,183,0,0,0,487
+"2023","Eduardo Rodriguez","SP","Detroit Tigers",152.666666666667,128,56,48,143,0,0,0,486
+"2025","Yusei Kikuchi","SP","Los Angeles Angels",178.333333333333,180,79,74,174,0,0,0,485.5
+"2023","Shohei Ohtani","SP","Los Angeles Angels",132,85,46,55,167,0,0,0,483
+"2024","Mitch Keller","SP","Pittsburgh Pirates",178,182,84,50,166,0,0,0,483
+"2025","Brayan Bello","SP","Boston Red Sox",166.666666666667,147,62,59,124,0,0,0,482
+"2023","Clayton Kershaw","SP","Los Angeles Dodgers",131.666666666667,100,36,40,137,0,0,0,481.5
+"2025","Chris Bassitt","SP","Toronto Blue Jays",170.333333333333,174,75,52,166,0,0,0,481.5
+"2024","MacKenzie Gore","SP","Washington Nationals",166.333333333333,171,72,65,181,0,0,0,477.5
+"2025","Logan Gilbert","SP","Seattle Mariners",131,104,50,31,173,0,0,0,477.5
+"2023","Bailey Ober","SP","Minnesota Twins",144.333333333333,125,55,29,146,0,0,0,476.5
+"2024","Jose Quintana","SP","New York Mets",170.333333333333,150,71,63,135,0,0,0,475.5
+"2025","Mitch Keller","SP","Pittsburgh Pirates",176.333333333333,171,82,51,150,0,0,0,475.5
+"2023","Tanner Bibee","SP","Cleveland Guardians",142,122,47,45,141,0,0,0,472
+"2023","Dean Kremer","SP","Baltimore Orioles",172.666666666667,171,79,55,157,0,0,0,471
+"2025","Quinn Priester","SP","Milwaukee Brewers",157.333333333333,145,58,50,132,0,0,0,471
+"2025","Michael Wacha","SP","Kansas City Royals",172.666666666667,166,74,45,126,0,0,0,470
+"2023","Bryce Elder","SP","Atlanta Braves",174.666666666667,160,74,63,128,0,0,0,469
+"2024","Ranger Suarez","SP","Philadelphia Phillies",150.666666666667,140,58,41,145,0,0,0,468
+"2025","Jeffrey Springs","SP","Athletics",171,153,78,54,138,0,0,0,466.5
+"2025","Dean Kremer","SP","Baltimore Orioles",171.666666666667,163,80,45,142,0,0,0,466.5
+"2025","MacKenzie Gore","SP","Washington Nationals",159.666666666667,152,74,64,185,0,0,0,465.5
+"2023","Kyle Gibson","SP","Baltimore Orioles",192,198,101,55,157,0,0,0,465
+"2024","JP Sears","SP","Athletics",180.666666666667,172,88,49,137,0,0,0,465
+"2025","Clay Holmes","SP","New York Mets",165.666666666667,150,65,66,129,0,0,0,463.5
+"2024","Nick Pivetta","SP","Boston Red Sox",145.666666666667,128,67,36,172,0,0,0,462.5
+"2024","Charlie Morton","SP","Atlanta Braves",165.333333333333,154,77,65,167,0,0,0,461
+"2024","Zack Littell","SP","Tampa Bay Rays",156.333333333333,164,63,31,141,0,0,0,460.5
+"2024","Joe Ryan","SP","Minnesota Twins",135,110,54,23,147,0,0,0,459.5
+"2023","Johan Oviedo","SP","Pittsburgh Pirates",177.666666666667,161,85,83,158,0,0,0,458.5
+"2023","JP Sears","SP","Athletics",172.333333333333,165,87,53,161,0,0,0,457.5
+"2025","Jack Flaherty","SP","Detroit Tigers",161,147,83,59,188,0,0,0,457.5
+"2023","Miles Mikolas","SP","St. Louis Cardinals",201.333333333333,226,107,39,137,0,0,0,457
+"2024","Justin Steele","SP","Chicago Cubs",134.666666666667,111,46,37,135,0,0,0,455
+"2024","Zac Gallen","SP","Arizona Diamondbacks",148,133,60,54,156,0,0,0,455
+"2024","Andrew Heaney","SP","Texas Rangers",160,159,76,41,159,0,0,0,451
+"2024","Chris Bassitt","SP","Toronto Blue Jays",171,180,79,70,168,0,0,0,450.5
+"2023","Seth Lugo","SP","San Diego Padres",146.333333333333,140,58,36,140,0,0,0,448.5
+"2024","Colin Rea","SP","Milwaukee Brewers",167.666666666667,169,80,43,135,1,0,1,448.5
+"2024","Tobias Myers","SP","Milwaukee Brewers",138,126,46,36,127,0,0,0,448
+"2025","Noah Cameron","SP","Kansas City Royals",138.333333333333,109,46,43,114,0,0,0,446.5
+"2024","Kyle Gibson","SP","St. Louis Cardinals",169.666666666667,161,80,68,151,0,0,0,445.5
+"2025","Shota Imanaga","SP","Chicago Cubs",144.666666666667,117,60,26,117,0,0,0,445
+"2025","Shane Smith","SP","Chicago White Sox",146.333333333333,117,62,58,145,0,0,0,442.5
+"2023","Nathan Eovaldi","SP","Texas Rangers",144,117,58,47,132,0,0,0,442
+"2025","Jack Leiter","SP","Texas Rangers",151.666666666667,127,65,67,148,0,0,0,441.5
+"2025","Colin Rea","SP","Chicago Cubs",159.333333333333,155,70,44,127,1,0,0,441
+"2025","David Peterson","SP","New York Mets",168.666666666667,166,79,65,150,0,0,0,441
+"2025","Nick Martinez","SP","Cincinnati Reds",165.666666666667,158,82,42,116,0,0,5,440.5
+"2025","Edward Cabrera","SP","Miami Marlins",137.666666666667,121,54,48,150,0,0,0,438.5
+"2025","Will Warren","SP","New York Yankees",162.333333333333,158,80,65,171,0,0,0,438.5
+"2025","Jose Berrios","SP","Toronto Blue Jays",166,160,77,56,138,0,0,0,438
+"2023","Taijuan Walker","SP","Philadelphia Phillies",172.666666666667,155,84,71,138,0,0,0,437
+"2023","Cristian Javier","SP","Houston Astros",162,143,82,62,159,0,0,0,437
+"2025","Jose Soriano","SP","Los Angeles Angels",169,158,80,78,152,0,0,0,436.5
+"2025","Shane Baz","SP","Tampa Bay Rays",166.333333333333,158,90,64,176,0,0,0,432.5
+"2025","Trevor Rogers","SP","Baltimore Orioles",109.666666666667,70,22,29,103,0,0,0,431.5
+"2023","Tyler Glasnow","SP","Tampa Bay Rays",120,93,47,37,162,0,0,0,431
+"2023","Jon Gray","SP","Texas Rangers",157.333333333333,149,72,54,142,0,0,0,431
+"2024","Aaron Civale","SP","Milwaukee Brewers",161,158,78,52,149,0,0,0,429.5
+"2023","Michael Wacha","SP","San Diego Padres",134.333333333333,113,48,43,124,0,0,0,428.5
+"2025","Casey Mize","SP","Detroit Tigers",149,153,64,36,139,0,0,0,428.5
+"2025","Lucas Giolito","SP","Boston Red Sox",145,131,55,56,121,0,0,0,421.5
+"2024","Bryan Woo","SP","Seattle Mariners",121.333333333333,96,39,13,101,0,0,0,421
+"2024","Ryan Pepiot","SP","Tampa Bay Rays",130,102,52,48,142,0,0,0,421
+"2023","Josiah Gray","SP","Washington Nationals",159,152,69,80,143,0,0,0,419.5
+"2024","Brayan Bello","SP","Boston Red Sox",162.333333333333,157,81,64,153,0,0,0,419.5
+"2025","Justin Verlander","SP","San Francisco Giants",152,155,65,52,137,0,0,0,419
+"2024","Ben Lively","SP","Cleveland Guardians",151,139,64,49,118,0,0,0,417.5
+"2023","Alex Cobb","SP","San Francisco Giants",151.333333333333,163,65,37,131,0,0,0,417
+"2024","Taj Bradley","SP","Tampa Bay Rays",138,122,63,47,154,0,0,0,417
+"2024","Spencer Schwellenbach","SP","Atlanta Braves",123.666666666667,106,46,23,127,0,0,0,416.5
+"2025","Hunter Greene","SP","Cincinnati Reds",107.666666666667,75,33,26,132,0,0,0,416.5
+"2023","Andrew Heaney","SP","Texas Rangers",147.333333333333,143,68,60,151,0,1,2,414
+"2023","Reid Detmers","SP","Los Angeles Angels",148.666666666667,141,74,60,168,0,0,0,414
+"2024","Gavin Stone","SP","Los Angeles Dodgers",140.333333333333,133,55,37,116,0,0,0,412.5
+"2023","Lance Lynn","SP","Los Angeles Dodgers",183.666666666667,189,117,67,191,0,0,0,410.5
+"2023","Kutter Crawford","SP","Boston Red Sox",129.333333333333,107,58,36,135,0,0,2,410
+"2024","Ryan Feltner","SP","Colorado Rockies",162.333333333333,165,81,52,138,0,0,0,408.5
+"2024","Ryne Nelson","SP","Arizona Diamondbacks",150.666666666667,155,71,34,126,1,0,0,408
+"2023","Michael Lorenzen","SP","Philadelphia Phillies",153,138,71,47,111,1,0,0,407.5
+"2023","Brayan Bello","SP","Boston Red Sox",157,165,74,45,132,0,0,0,406.5
+"2023","Clarke Schmidt","SP","New York Yankees",159,169,82,46,149,0,0,0,403.5
+"2025","Kris Bubic","SP","Kansas City Royals",116.333333333333,98,33,39,116,0,0,0,403.5
+"2023","Hunter Brown","SP","Houston Astros",155.666666666667,157,88,55,178,0,0,0,402.5
+"2023","Tyler Wells","SP","Baltimore Orioles",118.666666666667,83,48,34,117,1,0,1,401
+"2024","Spencer Arrighetti","SP","Houston Astros",145,139,73,65,171,0,0,0,400.5
+"2024","Mitchell Parker","SP","Washington Nationals",151,154,72,43,133,0,0,0,399.5
+"2025","Luis Severino","SP","Athletics",162.666666666667,162,82,50,124,0,0,0,398
+"2025","Brandon Pfaadt","SP","Arizona Diamondbacks",176.666666666667,198,103,37,147,0,0,0,398
+"2024","Javier Assad","SP","Chicago Cubs",147,143,61,63,124,0,0,0,396.5
+"2024","Blake Snell","SP","San Francisco Giants",104,65,36,44,145,0,0,0,396
+"2025","Cade Horton","SP","Chicago Cubs",118,95,35,33,97,0,0,0,395
+"2023","Jameson Taillon","SP","Chicago Cubs",154.333333333333,156,83,41,140,1,0,0,394.5
+"2025","Sandy Alcantara","SP","Miami Marlins",174.666666666667,165,104,57,142,0,0,0,394
+"2025","Matthew Liberatore","SP","St. Louis Cardinals",151.666666666667,158,71,40,122,0,0,0,393.5
+"2025","Seth Lugo","SP","Kansas City Royals",145.333333333333,133,67,55,125,0,0,0,390
+"2025","Patrick Corbin","SP","Texas Rangers",155.333333333333,161,76,51,131,0,0,0,390
+"2025","Logan Allen","SP","Cleveland Guardians",156.666666666667,157,74,62,122,0,0,0,386
+"2023","Bobby Miller","SP","Los Angeles Dodgers",124.333333333333,105,52,32,119,0,0,0,385.5
+"2025","Jameson Taillon","SP","Chicago Cubs",129.666666666667,110,53,27,98,0,0,0,385.5
+"2024","Andrew Abbott","SP","Cincinnati Reds",138,127,57,52,114,0,0,0,385
+"2025","Spencer Schwellenbach","SP","Atlanta Braves",110.666666666667,89,38,18,108,0,0,0,385
+"2025","Kyle Hendricks","SP","Los Angeles Angels",164.666666666667,167,87,43,114,0,0,0,384
+"2023","Aaron Civale","SP","Tampa Bay Rays",122.333333333333,109,47,33,116,0,0,0,383.5
+"2024","Austin Gomber","SP","Colorado Rockies",165,178,87,38,116,0,0,0,381.5
+"2023","Marcus Stroman","SP","Chicago Cubs",136.666666666667,120,60,52,119,0,1,0,379
+"2024","Michael Lorenzen","SP","Kansas City Royals",130.333333333333,101,48,60,97,0,0,0,378.5
+"2024","Frankie Montas","SP","Milwaukee Brewers",150.666666666667,140,81,66,148,0,0,0,377
+"2025","George Kirby","SP","Seattle Mariners",126,121,59,29,137,0,0,0,377
+"2023","Shane McClanahan","SP","Tampa Bay Rays",115,95,42,41,121,0,0,0,376.5
+"2025","Chad Patrick","SP","Milwaukee Brewers",119.666666666667,113,47,40,127,0,0,1,376.5
+"2023","Mike Clevinger","SP","Chicago White Sox",131.333333333333,121,55,40,110,0,0,0,375
+"2023","Kyle Hendricks","SP","Chicago Cubs",137,138,57,27,93,0,0,0,373.5
+"2024","Albert Suarez","SP","Baltimore Orioles",133.666666666667,130,55,43,108,0,1,1,373.5
+"2023","MacKenzie Gore","SP","Washington Nationals",136.333333333333,134,67,57,151,0,0,0,372.5
+"2024","David Peterson","SP","New York Mets",121,110,39,46,101,0,0,0,372.5
+"2024","Mitch Spence","SP","Athletics",151.333333333333,165,77,44,126,0,0,1,372
+"2023","Bryce Miller","SP","Seattle Mariners",131.333333333333,124,63,26,119,0,0,0,371
+"2023","Griffin Canning","SP","Los Angeles Angels",127,121,61,36,139,0,0,0,370.5
+"2023","Yu Darvish","SP","San Diego Padres",136.333333333333,134,69,43,141,0,0,0,370.5
+"2024","Miles Mikolas","SP","St. Louis Cardinals",171.666666666667,194,102,25,122,0,0,0,369.5
+"2024","Dean Kremer","SP","Baltimore Orioles",129.666666666667,110,59,51,123,0,0,0,368.5
+"2024","Matt Waldron","SP","San Diego Padres",146.666666666667,145,80,40,133,0,0,0,368
+"2025","Davis Martin","SP","Chicago White Sox",142.666666666667,136,65,48,104,0,0,0,367
+"2024","Jared Jones","SP","Pittsburgh Pirates",121.666666666667,106,56,39,132,0,0,0,366.5
+"2024","Marcus Stroman","SP","New York Yankees",154.666666666667,167,74,60,113,1,0,0,366
+"2024","Griffin Canning","SP","Los Angeles Angels",171.666666666667,174,99,66,130,0,0,0,365.5
+"2023","Shane Bieber","SP","Cleveland Guardians",128,124,54,34,107,0,0,0,363
+"2025","Michael Lorenzen","SP","Kansas City Royals",141.666666666667,149,73,39,127,0,0,1,362.5
+"2023","Patrick Sandoval","SP","Los Angeles Angels",144.666666666667,145,66,74,128,0,0,0,362
+"2025","Tomoyuki Sugano","SP","Baltimore Orioles",157,173,81,36,106,0,0,0,360.5
+"2024","Grayson Rodriguez","SP","Baltimore Orioles",116.666666666667,109,50,36,130,0,0,0,360
+"2024","Simeon Woods Richardson","SP","Minnesota Twins",133.666666666667,125,62,48,117,0,0,0,359.5
+"2023","Wade Miley","SP","Milwaukee Brewers",120.333333333333,99,42,38,79,0,0,0,357.5
+"2025","Slade Cecconi","SP","Cleveland Guardians",132,125,63,32,109,0,0,0,357
+"2025","Adrian Houser","SP","Tampa Bay Rays",125,122,46,38,92,0,0,0,356.5
+"2025","Kodai Senga","SP","New York Mets",113.333333333333,94,38,55,109,0,0,0,356
+"2023","J.P. France","SP","Houston Astros",136.333333333333,138,58,47,101,0,0,0,355.5
+"2023","Patrick Corbin","SP","Washington Nationals",180,210,104,57,124,0,0,0,355
+"2025","Kyle Freeland","SP","Colorado Rockies",162.666666666667,193,90,38,124,0,0,0,355
+"2025","Sean Burke","SP","Chicago White Sox",134.333333333333,131,63,63,133,0,0,0,354.5
+"2023","Logan Allen","SP","Cleveland Guardians",125.333333333333,127,53,48,119,0,0,0,349
+"2024","Alec Marsh","SP","Kansas City Royals",129,123,65,39,123,0,0,0,346.5
+"2024","Jose Soriano","SP","Los Angeles Angels",113,91,43,45,97,0,0,1,345.5
+"2025","Miles Mikolas","SP","St. Louis Cardinals",156.333333333333,169,84,37,100,0,0,0,345.5
+"2024","Bailey Falter","SP","Pittsburgh Pirates",142.333333333333,138,70,45,97,0,0,0,344.5
+"2025","Chris Paddack","SP","Detroit Tigers",158,166,94,37,112,1,0,0,344
+"2025","Taj Bradley","SP","Minnesota Twins",142.666666666667,131,80,56,127,0,0,0,342
+"2024","Reese Olson","SP","Detroit Tigers",112.333333333333,100,44,33,101,0,0,0,341.5
+"2025","Eduardo Rodriguez","SP","Arizona Diamondbacks",154.333333333333,178,86,60,143,0,0,0,341.5
+"2025","Bryce Elder","SP","Atlanta Braves",156.333333333333,167,92,51,131,0,0,0,340.5
+"2025","Bailey Ober","SP","Minnesota Twins",146.333333333333,159,83,31,120,0,0,0,339.5
+"2023","Grayson Rodriguez","SP","Baltimore Orioles",122,121,59,42,129,0,0,0,338
+"2025","Jose Quintana","SP","Milwaukee Brewers",131.666666666667,120,58,50,89,0,0,0,337.5
+"2024","Chris Flexen","SP","Chicago White Sox",160,180,88,63,123,0,0,0,336
+"2024","Patrick Corbin","SP","Washington Nationals",174.666666666667,208,109,54,139,0,0,0,336
+"2023","Graham Ashcraft","SP","Cincinnati Reds",145.666666666667,148,77,52,111,0,0,0,335.5
+"2025","Jake Irvin","SP","Washington Nationals",180,195,114,62,124,0,0,0,335
+"2023","Jack Flaherty","SP","Baltimore Orioles",144.333333333333,162,80,66,148,0,0,1,334.5
+"2023","Colin Rea","SP","Milwaukee Brewers",124.666666666667,110,63,38,110,0,0,0,334
+"2024","Andre Pallante","SP","St. Louis Cardinals",121.333333333333,110,51,48,94,0,0,1,334
+"2025","Spencer Strider","SP","Atlanta Braves",125.333333333333,124,62,51,131,0,0,0,334
+"2025","Grant Holmes","SP","Atlanta Braves",115,100,51,54,123,0,0,0,333.5
+"2023","Martin Perez","SP","Texas Rangers",141.666666666667,150,70,49,93,0,0,2,331.5
+"2025","Randy Vasquez","SP","San Diego Padres",133.666666666667,125,57,52,78,0,0,0,331.5
+"2023","Ranger Suarez","SP","Philadelphia Phillies",125,129,58,48,119,0,0,0,330.5
+"2024","Lance Lynn","SP","St. Louis Cardinals",117.333333333333,113,50,44,109,0,0,0,330
+"2023","Julio Urias","SP","Los Angeles Dodgers",117.333333333333,112,60,24,117,0,0,0,329
+"2025","Clayton Kershaw","SP","Los Angeles Dodgers",112.666666666667,102,42,35,84,0,0,0,328
+"2023","Andrew Abbott","SP","Cincinnati Reds",109.333333333333,100,47,44,120,0,0,0,327
+"2023","Brady Singer","SP","Kansas City Royals",159.666666666667,182,98,49,133,0,0,0,326.5
+"2023","Jordan Lyles","SP","Kansas City Royals",177.666666666667,176,124,45,120,0,0,0,326.5
+"2023","Joe Musgrove","SP","San Diego Padres",97.3333333333333,90,33,21,97,0,0,0,325
+"2023","Cristopher Sanchez","SP","Philadelphia Phillies",99.3333333333333,88,38,16,96,0,0,0,325
+"2023","Chris Sale","SP","Boston Red Sox",102.666666666667,87,49,29,125,0,0,0,324
+"2025","Stephen Kolek","SP","Kansas City Royals",112.666666666667,98,44,31,77,0,0,0,323
+"2024","Kyle Harrison","SP","San Francisco Giants",124.333333333333,125,63,42,118,0,0,0,321.5
+"2023","Domingo German","SP","New York Yankees",108.666666666667,83,55,34,114,0,0,0,321
+"2023","Reese Olson","SP","Detroit Tigers",103.666666666667,83,46,33,103,0,0,1,320.5
+"2025","JP Sears","SP","San Diego Padres",135.666666666667,143,76,36,117,0,0,0,320.5
+"2023","Eury Perez","SP","Miami Marlins",91.3333333333333,72,32,31,108,0,0,0,320
+"2024","Yoshinobu Yamamoto","SP","Los Angeles Dodgers",90,78,30,22,105,0,0,0,320
+"2024","Nick Lodolo","SP","Cincinnati Reds",115.333333333333,101,61,37,122,0,0,0,320
+"2025","Andre Pallante","SP","St. Louis Cardinals",162.666666666667,173,96,62,111,0,0,0,320
+"2025","Tyler Anderson","SP","Los Angeles Angels",136.333333333333,135,69,57,104,0,0,0,318.5
+"2023","Kenta Maeda","SP","Minnesota Twins",104.333333333333,94,49,28,117,0,0,0,317.5
+"2025","Tyler Glasnow","SP","Los Angeles Dodgers",90.3333333333333,56,32,43,106,0,0,0,317.5
+"2023","Hunter Greene","SP","Cincinnati Reds",112,111,60,48,152,0,0,0,317
+"2023","Tarik Skubal","SP","Detroit Tigers",80.3333333333333,58,25,14,102,0,0,0,316.5
+"2023","Zack Greinke","SP","Kansas City Royals",142.333333333333,158,80,23,97,0,0,0,316.5
+"2025","Simeon Woods Richardson","SP","Minnesota Twins",111.333333333333,96,50,46,107,0,0,0,316
+"2024","Gerrit Cole","SP","New York Yankees",95,78,36,29,99,0,0,0,311.5
+"2025","Dustin May","SP","Boston Red Sox",132.333333333333,132,73,56,123,0,0,0,311.5
+"2024","Martin Perez","SP","San Diego Padres",135,151,68,49,107,0,0,0,310.5
+"2024","Cal Quantrill","SP","Colorado Rockies",148.333333333333,156,82,69,110,0,0,0,306.5
+"2024","Jonathan Cannon","SP","Chicago White Sox",124.333333333333,125,62,40,91,1,0,0,305.5
+"2023","Kyle Freeland","SP","Colorado Rockies",155.666666666667,187,87,42,94,0,0,0,304.5
+"2024","Joe Musgrove","SP","San Diego Padres",99.6666666666667,94,43,23,101,0,0,0,303.5
+"2025","Mitchell Parker","SP","Washington Nationals",164.666666666667,178,104,58,103,1,0,0,302
+"2024","Joey Estes","SP","Athletics",127.666666666667,130,71,27,92,0,0,1,301.5
+"2023","Brandon Williamson","SP","Cincinnati Reds",117,111,58,39,98,0,0,0,300.5
+"2023","Ken Waldichuk","SP","Athletics",141,149,84,71,132,1,0,0,300.5
+"2025","Janson Junk","SP","Miami Marlins",110,112,51,13,77,1,0,0,300
+"2025","Eury Perez","SP","Miami Marlins",95.3333333333333,68,45,32,105,0,0,0,299
+"2025","Bailey Falter","SP","Kansas City Royals",125.333333333333,115,62,46,81,0,0,0,298
+"2023","Rich Hill","SP","San Diego Padres",146.333333333333,165,88,58,129,0,1,0,297.5
+"2023","Steven Matz","SP","St. Louis Cardinals",105,108,45,32,98,0,0,0,295.5
+"2024","Clarke Schmidt","SP","New York Yankees",85.3333333333333,71,27,30,93,0,0,0,295
+"2025","Tyler Mahle","SP","Texas Rangers",86.6666666666667,69,21,29,66,0,0,0,295
+"2023","Adrian Houser","SP","Milwaukee Brewers",111.333333333333,121,51,34,96,0,0,0,289
+"2025","Landen Roupp","SP","San Francisco Giants",106.666666666667,113,45,45,102,0,0,0,289
+"2025","Mike Burrows","SP","Pittsburgh Pirates",96,88,42,31,97,0,0,1,289
+"2023","Tyler Anderson","SP","Los Angeles Angels",141,146,85,64,119,0,0,0,288.5
+"2025","Charlie Morton","SP","Atlanta Braves",142,152,92,72,149,0,0,0,288
+"2025","Jacob Lopez","SP","Athletics",92.6666666666667,81,42,37,113,0,0,0,286
+"2023","Jake Irvin","SP","Washington Nationals",121,118,62,54,99,0,0,0,285.5
+"2023","Ryne Nelson","SP","Arizona Diamondbacks",144,159,85,46,96,0,0,0,284
+"2023","Edward Cabrera","SP","Miami Marlins",99.6666666666667,78,47,66,118,0,0,0,281.5
+"2025","Emmet Sheehan","SP","Los Angeles Dodgers",73.3333333333333,49,23,22,89,0,0,0,279
+"2023","Tylor Megill","SP","New York Mets",126.333333333333,141,66,58,105,0,0,0,276.5
+"2023","Michael Kopech","SP","Chicago White Sox",129.333333333333,115,78,91,134,0,0,0,276
+"2023","Max Fried","SP","Atlanta Braves",77.6666666666667,70,22,18,80,0,0,0,275.5
+"2023","David Peterson","SP","New York Mets",111,124,62,50,128,0,0,1,272.5
+"2024","DJ Herz","SP","Washington Nationals",88.6666666666667,76,41,36,106,0,0,0,270
+"2023","Brandon Woodruff","SP","Milwaukee Brewers",67,40,17,15,74,0,0,0,269.5
+"2024","Yu Darvish","SP","San Diego Padres",81.6666666666667,65,30,22,78,0,0,0,268.5
+"2025","Michael Soroka","SP","Chicago Cubs",89.6666666666667,72,45,29,95,0,0,1,267.5
+"2023","James Paxton","SP","Boston Red Sox",96,93,48,33,101,0,0,0,263
+"2024","Ryan Weathers","SP","Miami Marlins",86.6666666666667,78,35,24,80,0,0,0,263
+"2023","Trevor Williams","SP","Washington Nationals",144.333333333333,178,89,53,111,0,0,0,262.5
+"2024","Shane Baz","SP","Tampa Bay Rays",79.3333333333333,57,27,27,69,0,0,0,261
+"2025","Walker Buehler","SP","Philadelphia Phillies",126,130,69,61,92,0,0,0,261
+"2025","Pablo Lopez","SP","Minnesota Twins",75.6666666666667,64,23,20,73,0,0,0,260.5
+"2025","Cade Povich","SP","Baltimore Orioles",112.333333333333,125,65,43,118,0,0,0,260.5
+"2023","Taj Bradley","SP","Tampa Bay Rays",104.666666666667,106,65,39,129,0,0,0,260
+"2024","Jon Gray","SP","Texas Rangers",102.666666666667,107,51,28,86,0,0,0,260
+"2025","Aaron Civale","SP","Chicago Cubs",102,96,55,33,88,1,0,0,259
+"2023","Bryan Woo","SP","Seattle Mariners",87.6666666666667,75,41,31,93,0,0,0,258.5
+"2023","Gavin Williams","SP","Cleveland Guardians",82,66,30,37,81,0,0,0,257
+"2024","Trevor Rogers","SP","Baltimore Orioles",124.333333333333,140,68,56,97,0,0,0,256.5
+"2023","Paul Blackburn","SP","Athletics",103.666666666667,117,51,43,104,0,1,0,254.5
+"2023","Tanner Houck","SP","Boston Red Sox",106,104,59,41,99,0,0,0,254
+"2025","Clarke Schmidt","SP","New York Yankees",78.6666666666667,56,29,30,73,0,0,0,254
+"2025","Cam Schlittler","SP","New York Yankees",73,58,24,31,84,0,0,0,251.5
+"2023","Austin Gomber","SP","Colorado Rockies",139,164,85,43,87,0,0,0,250.5
+"2025","Erick Fedde","SP","Milwaukee Brewers",141,147,86,67,83,0,0,1,250.5
+"2024","Edward Cabrera","SP","Miami Marlins",96.3333333333333,82,53,50,107,0,0,0,249.5
+"2023","Tony Gonsolin","SP","Los Angeles Dodgers",103,86,57,40,82,0,0,0,248.5
+"2024","Cody Bradford","SP","Texas Rangers",76.3333333333333,64,30,13,70,0,0,0,246.5
+"2025","Brandon Woodruff","SP","Milwaukee Brewers",64.6666666666667,45,23,14,83,0,0,0,246
+"2024","Trevor Williams","SP","Washington Nationals",66.6666666666667,51,15,18,59,0,0,0,245
+"2025","Ben Brown","SP","Chicago Cubs",106.333333333333,121,70,32,121,1,1,1,244.5
