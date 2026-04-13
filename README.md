@@ -117,7 +117,7 @@ A clustered, performance-optimized master spreadsheet that:
 
 ### 5. Visual Documentation
 
-A structured write-up and diagram folder containing:
+Embedded directly within the machine learning Jupyter notebooks:
 
 - Horizontal bar charts displaying precise positive and negative coefficient weights for Hitters, Starters, and Relievers derived from the machine learning models.
 
