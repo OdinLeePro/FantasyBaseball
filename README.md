@@ -121,5 +121,44 @@ Embedded directly within the machine learning Jupyter notebooks:
 
 - Horizontal bar charts displaying precise positive and negative coefficient weights for Hitters, Starters, and Relievers derived from the machine learning models.
 
+## Pipeline Execution (How to Run)
+
+To replicate this data pipeline or update it for a new fantasy season, execute the following steps in order:
+
+**1. Calculate Base Replacement Level**
+* **File:** `TeamScoresAnalysis.xlsx`
+* **Action:** Update the *Number of Players on Roster* calculations.
+* **Frequency:** Once at the start of the new year.
+
+**2. Collect & Clean Historical Data**
+* **File:** `HistoricalDataCollectClean.qmd`
+* **Action:** Select the target year and filter the relevant rows.
+* **Frequency:** Once at the start of the new year.
+
+**3. Update Average Draft Position (ADP) Data**
+* **Files:** `HittersADP2026RAW.csv` & `PitchersADP2026RAW.csv`
+* **Action:** Export the latest consensus ADP from FantasyPros. Edit in Excel to match previous column structures.
+* **Frequency:** Continuously updated (pull as close to draft day as possible).
+
+**4. Update Player Projections (Hitters)**
+* **File:** `HittersProj2026RAW.csv`
+* **Action:** Export 'The Bat X' (Standard) batter projections from FanGraphs. Edit in Excel to match previous column structures.
+* **Frequency:** Continuously updated (pull as close to draft day as possible).
+
+**5. Update Player Projections (Pitchers)**
+* **File:** `PitchersProj2026RAW.csv`
+* **Action:** Export 'ATC' (Standard) pitcher projections from FanGraphs. Edit in Excel to match previous column structures.
+* **Frequency:** Continuously updated (pull as close to draft day as possible).
+
+**6. Apply Machine Learning Weights**
+* **File:** `BigBoard.ipynb`
+* **Action:** Define Weights by updating the Theta values (coefficients) derived from the ML models.
+* **Frequency:** Once at the start of the new year.
+
+**7. Finalize the Big Board**
+* **File:** `BigBoard.ipynb`
+* **Action:** Update the Roster Count in the ML Points Section to match the established Replacement Level (x 1.2).
+* **Frequency:** Once per year.
+
 ## License
 This project is licensed under the MIT License.
